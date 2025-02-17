@@ -246,7 +246,8 @@ class Cnn3d(object):
         # BUILD ACTUAL MODEL #
         ######################
         log.print3("...Building the CNN model...")
-        
+        log.info("...Building the CNN model...")
+
         #=======================Make the NORMAL PATHWAY of the CNN=======================
         thisPathway = NormalPathway()
         self.pathways.append(thisPathway)
